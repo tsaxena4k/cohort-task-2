@@ -3,7 +3,7 @@ import Header from '../component/Header';
 
 function Products() {
     return (
-        <Header route='product'/>
+        <Header route='products'/>
     )
 }
 
