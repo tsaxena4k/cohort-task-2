@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from './component/Navbar';
 import './main.scss';
 import Home from './pages/Home';
@@ -9,6 +9,13 @@ import Footer from './component/Footer';
 import NotFound from './pages/404';
 
 function App() {
+
+  useEffect(() => {
+    window.AOS.init({
+      duration:1200
+    });
+  }, [])
+
   return (
     <>
       <Router>
