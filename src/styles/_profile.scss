@@ -1,0 +1,38 @@
+.profile-container{
+    .profile-card{
+        height: 379px;
+        width: 300px;
+        background: url('../images/Profile.jpg') center center no-repeat;
+        background-size: 300px;
+        overflow: hidden;
+        transition: all 0.8s;
+        &:hover{
+            background: url('../images/Profile.jpg') left center no-repeat;
+            background-size: 600px;
+            filter: grayscale(100%);
+        }
+    }
+}
+.profile-content{
+    .profile-links{
+        display: flex;
+        a{
+            font-size: 2rem;
+            margin-right: 10px;
+            color: black;
+        }
+        @include for-phone-only{
+            justify-content: center;
+        }
+    }
+    @include for-phone-only{
+        text-align: center;
+    }
+}
+
+.vertically-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,50 @@
+@mixin social-color($color){
+    color: $color;
+}
+
+.footer-container{
+    background-color: #242424;
+    color: white;
+}
+
+.footer-links {
+    .footer-link-wrapper{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+        .footer-link-items{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    .social-links{
+        a{
+            margin-left: 10px;
+        }
+        a:hover{
+            @include social-color(grey);
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 425px){
+
+    .footer-links{
+        text-align: center;
+    }
+	.footer-end{
+        padding: 0 1rem;
+    }
+}

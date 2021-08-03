@@ -1,0 +1,43 @@
+
+.header-container{
+    margin-top: 3.5rem;
+    height: 92vh;
+    background-image: url("../images//BG1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.header-container .header{
+    .header-text{
+        font-size: 9vw;
+    }
+    .header-btn{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .mr-2{
+        margin-right: 10px;
+    }
+    .scroll-indicator{
+        position: absolute;
+        left: 50%;
+        font-size: 2rem;
+        color: white;
+        -webkit-animation: bounce 1s infinite; 
+	    animation: bounce 1s infinite;
+    }
+}
+
+
+@keyframes bounce {
+    0% { top: 80%; }
+    50%   { top: 85%; }
+    100% { top: 80%; }
+}
