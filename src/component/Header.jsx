@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {FaAngleDoubleDown} from 'react-icons/fa';
+import HeyImage from '../images/Hey.png';
 
 function Header({ route }) {
     return (
@@ -31,6 +32,9 @@ function Header({ route }) {
                     <div class="scroll-indicator"><FaAngleDoubleDown/></div>
                 </div>
             </div>
+            {route==='home'?<div className="bitemoji">
+                <img src={HeyImage}/>
+            </div>:null}
         </div>
     )
 }

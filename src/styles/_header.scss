@@ -1,6 +1,7 @@
 
 .header-container{
     margin-top: 3.5rem;
+    position: relative;
     height: 92vh;
     background-image: url("../images//BG1.jpg");
     background-repeat: no-repeat;
@@ -35,6 +36,23 @@
     }
 }
 
+.header-container{
+  .bitemoji{
+    position: absolute;
+    bottom: 0;
+    animation: slidein 1s 1;
+    img{
+      @include for-phone-only{
+        width: 45vw;
+      }
+    }
+  }
+}
+
+@keyframes slidein{
+  0% {left:-20%}
+  100% {left:0}
+}
 
 @keyframes bounce {
     0% { top: 80%; }
