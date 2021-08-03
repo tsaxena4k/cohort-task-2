@@ -24,8 +24,8 @@ function Header({ route }) {
                         <>
                             <h1 className="header-text text-light" data-aos="zoom-in">Hello</h1>
                             <h1 className="text-light" data-aos="zoom-in" data-aos-delay="700">This is Tushar Saxena</h1>
-                            <Link to='/about' type="button" className="btn mr-2 btn-outline-light btn-lg header-btn" data-aos="zoom-in-right" data-aos-delay="800">About</Link>
-                            <button type="button" className="btn btn-light btn-lg header-btn" data-aos="zoom-in-left" data-aos-delay="800" onClick={toggleFollow}>Follow</button>
+                            <Link to='/about' type="button" className="btn mr-2 btn-outline-light btn-lg header-btn" data-aos="zoom-in" data-aos-delay="800">About</Link>
+                            <button type="button" className="btn btn-light btn-lg header-btn" data-aos="zoom-in" data-aos-delay="800" onClick={toggleFollow}>Follow</button>
                             <div className='profile-links mt-3' id='profile-links'>
                                 <a href='https://www.facebook.com/tushar.saxena.56232/' target='_blank'><FaFacebookF /></a>
                                 <a href='https://www.instagram.com/tsaxena4k/' target='_blank'><AiFillInstagram /></a>
