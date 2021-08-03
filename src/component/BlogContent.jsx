@@ -13,13 +13,13 @@ function BlogContent() {
     function blogCard(blog) {
         return (
             <div className="col-sm-12">
-                <div class="card mb-3 shadow">
+                <div class="card mb-3 shadow" data-aos='zoom-in'>
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src={blog.cover_image} class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body" data-aos='zoom-in'>
+                            <div class="card-body">
                                 <a href={blog.url} target="_blank" className="blog-url"><h5 class="card-title">{blog.title}</h5></a>
                                 <p class="card-text">{blog.description}</p>
                                 <div className="d-flex public-reaction">
