@@ -19,7 +19,7 @@ function BlogContent() {
                             <img src={blog.cover_image} class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="card-body" data-aos='zoom-in'>
                                 <a href={blog.url} target="_blank" className="blog-url"><h5 class="card-title">{blog.title}</h5></a>
                                 <p class="card-text">{blog.description}</p>
                                 <div className="d-flex public-reaction">
