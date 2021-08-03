@@ -5,7 +5,7 @@ function Content() {
     return (
         <div className="content-container pb-5">
             <div className="container text-center">
-                <h1 className="p-5" data-aos="fade-left">Check them out</h1>
+                <h1 className="p-5" data-aos="fade-in">Check them out</h1>
                 <div className="content-cards">
                     <div className="row mb-5">
                         <div className="col-sm-6 mb-2">
