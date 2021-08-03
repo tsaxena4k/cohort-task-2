@@ -1,4 +1,9 @@
 .card{
     border-radius: 10px;
     overflow: hidden;
+    .card-body{
+        @include for-phone-only{
+            text-align: center ;
+        }
+    }
 }

@@ -1,0 +1,15 @@
+.blog-container{
+    .card-body{
+        .blog-url{
+            color: black;
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+    .public-reaction{
+        @include for-phone-only{
+            justify-content: center;
+        }
+    }
+}
