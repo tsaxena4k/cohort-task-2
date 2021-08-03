@@ -37,6 +37,18 @@
 }
 
 .header-container{
+  .profile-links{
+    font-size: 2rem;
+    display: none;
+    transition: all 0.8s;
+    animation: fade-in 1s 1;
+    a{
+      margin-right: 10px;
+      &:hover{
+        color: grey;
+      }
+    }
+  }
   .bitemoji{
     position: absolute;
     bottom: 0;
@@ -46,6 +58,11 @@
       }
     }
   }
+}
+
+@keyframes fade-in{
+  0% {opacity: 0;}
+  100%{opacity: 1;}
 }
 
 @keyframes bounce {

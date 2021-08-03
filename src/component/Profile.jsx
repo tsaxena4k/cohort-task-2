@@ -9,10 +9,10 @@ function Profile() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 vertically-centered mb-5">
-                        <div class="card profile-card"></div>
+                        <div class="card profile-card" data-aos='zoom-in'></div>
                     </div>
                     <div className="col-sm-6">
-                        <div className="profile-content">
+                        <div className="profile-content" data-aos='zoom-in'>
                             <h1>Hey, Tushar Saxena</h1>
                             <p>Hi there! Welcome to the profile of an upcoming graduate who is pursuing his bachelors in Computer science Engineering. Being tech-savvy and having a strong interest in coding I realise the passion that I can see turning into a profession shortly.
                                 From a Pseudo web developer to a MERN stack developer(Still Learning), I tried improving my skills every single day.

@@ -21,7 +21,7 @@ function Navbar() {
               <Link to='/products' class="nav-link active" aria-current="page" href="#">Products</Link>
             </li>
             <li class="nav-item">
-              <Link to='/' class="nav-link active" aria-current="page" href="#">Home</Link>
+              <Link to='/blogs' class="nav-link active" aria-current="page" href="#">Blog</Link>
             </li>
           </ul>
         </div>

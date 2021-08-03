@@ -27,7 +27,7 @@ function Content() {
                     </div>
                     <div className="row">
                     <div className="col-sm-4 mb-2">
-                            <div class="card shadow" data-aos="fade-right">
+                            <div class="card shadow" data-aos="zoom-in">
                                 <img src={cardImage} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -43,7 +43,7 @@ function Content() {
                             </div>
                         </div>
                         <div className="col-sm-4 mb-2">
-                            <div class="card shadow " data-aos="fade-left">
+                            <div class="card shadow " data-aos="zoom-in">
                                 <img src={cardImage} class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
