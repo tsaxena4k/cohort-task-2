@@ -23,7 +23,7 @@ function BlogContent() {
                                 <a href={blog.url} target="_blank" className="blog-url"><h5 class="card-title">{blog.title}</h5></a>
                                 <p class="card-text">{blog.description}</p>
                                 <div className="d-flex public-reaction">
-                                    <p style={{marginRight:'10px'}}><AiFillHeart/> {blog.public_reactions_count}</p>
+                                    <p style={{ marginRight: '10px' }}><AiFillHeart /> {blog.public_reactions_count}</p>
                                     <p><AiOutlineComment /> {blog.comments_count}</p>
                                 </div>
                             </div>
@@ -38,6 +38,7 @@ function BlogContent() {
         <div className="blog-container">
             <div className="container pt-5 pb-5">
                 <div className='row'>
+                    <div className='col-sm-12 text-center mb-3 daily-dev p-3'><a href="https://app.daily.dev/tsaxena4k"><img src="https://api.daily.dev/devcards/6945bec76d7e4b9c8add1f960029b275.png?r=e43" data-aos='flip-down' width="300" alt="Tushar saxena's Dev Card" /></a></div>
                     {
                         (Object.keys(data).length === 0 && data.constructor === Object) ?
                             null :

@@ -1,13 +1,16 @@
 .sidenav-container{
-    height: 100vh;
     width: 60vw;
     transition: all 0.8s;
-    animation: slide-in 1s 1;
-    position: absolute;
+    animation: slide-in 0.5s 1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100%;
     z-index: 999;
     background-color: #151c2e;
     color: white;
     .sidenav-links{
+        padding-top: 3.5rem;
         ul{
             text-decoration: none;
             list-style-type: none;

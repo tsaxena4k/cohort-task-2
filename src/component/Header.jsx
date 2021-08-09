@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaAngleDoubleDown } from 'react-icons/fa';
 import HeyImage from '../images/Hey.png';
+import BlogImage from '../images/Blog.png'
 import { FaFacebookF } from 'react-icons/fa';
 import { AiOutlineGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
@@ -46,8 +47,8 @@ function Header({ route }) {
                     <div className="scroll-indicator"><FaAngleDoubleDown /></div>
                 </div>
             </div>
-            {route === 'home' ? <div className="bitemoji">
-                <img src={HeyImage} data-aos="fade-right" />
+            {route === 'home' || route==='blogs' ? <div className="bitemoji">
+                <img src={route==='home'?HeyImage:BlogImage} data-aos="fade-right" />
             </div> : null}
         </div>
     )
