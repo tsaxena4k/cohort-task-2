@@ -8,6 +8,7 @@ import Products from './pages/Products';
 import Footer from './component/Footer';
 import Blog from './pages/Blog';
 import NotFound from './pages/404';
+import Dashboard from './pages/Dashboard';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/products' component={Products} />
           <Route exact path='/blogs' component={Blog}/>
+          <Route exact path='/dashboard' component={Dashboard}/>
           <Route component={NotFound}/>
         </Switch>
         <Footer/>

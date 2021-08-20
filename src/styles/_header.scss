@@ -3,9 +3,10 @@
     margin-top: 3.5rem;
     position: relative;
     height: 92vh;
-    background-image: url("../images//BG1.jpg");
+    background-image: url('../images/transition_wave_2.svg'),url("../images//BG1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%,cover;
+    background-position: bottom right;
     .container{
         position: relative;
         height: 100%;

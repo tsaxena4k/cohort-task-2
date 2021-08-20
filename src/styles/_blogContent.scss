@@ -1,8 +1,9 @@
 .blog-container{
     .daily-dev{
-        background-image: url('../images/BG2.jpg');
+        background-image: url('../images/pattern.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:contain;
+        background-position: center;
     }
     .card-body{
         .blog-url{
